@@ -1,6 +1,9 @@
 input.onButtonPressed(Button.A, function () {
     basic.showNumber(1)
 })
+input.onGesture(Gesture.Shake, function () {
+    basic.showIcon(IconNames.Sad)
+})
 input.onButtonPressed(Button.AB, function () {
     basic.showNumber(3)
 })
